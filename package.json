@@ -1,0 +1,9 @@
+{
+  "name": "boloyaar",
+  "version": "0.1.0",
+  "description": "Lightweight stranger voice + text chat (WebRTC), zero dependencies",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test/signaling.test.js" },
+  "engines": { "node": ">=18" },
+  "private": true
+}
