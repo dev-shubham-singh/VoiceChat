@@ -1,5 +1,5 @@
 'use strict';
-// BoloYaar - lightweight stranger voice + text chat. Zero dependencies.
+// Sable - lightweight stranger voice + text chat. Zero dependencies.
 // Run: node server.js   (then open http://localhost:3000)
 const http = require('http');
 const fs = require('fs');
@@ -388,4 +388,4 @@ function onClose(c) {
   u.awayTimer = setTimeout(() => drop(u), GRACE_MS);
 }
 
-server.listen(PORT, () => console.log('BoloYaar running on http://localhost:' + PORT));
+server.listen(PORT, () => console.log('Sable running on http://localhost:' + PORT));

@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#160f2e">
-<title>BoloYaar — voice calls with strangers</title>
+<title>Sable — voice calls with strangers</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="description" content="Free voice and text chat with strangers. No video, no app. 18+ only.">
 <style>
 *{box-sizing:border-box;margin:0}
@@ -22,6 +23,7 @@ body[data-v=call] #wave{opacity:.9;top:230px}
 header{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:14px 20px}
 .logo{font-size:21px;font-weight:800;letter-spacing:-.4px;background:none;color:var(--cream);padding:0;border-radius:4px}
 .logo span{color:var(--gold)}
+.logo{display:inline-flex;align-items:center;gap:8px}.logo .lg{width:30px;height:30px}
 .hr{display:flex;gap:14px;align-items:center;font-size:14px;color:var(--dim)}
 #online:not(:empty)::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--teal);margin-right:6px;box-shadow:0 0 8px var(--teal)}
 main{position:relative;z-index:1;flex:1;display:flex;justify-content:center;padding:8px 20px 24px;min-height:0}
@@ -160,7 +162,7 @@ dialog .col button{border-radius:14px;text-align:left}
 <body data-v="land">
 <canvas id="wave" aria-hidden="true"></canvas>
 <header>
-  <button class="logo" id="logo">Bolo<span>Yaar</span></button>
+  <button class="logo" id="logo" aria-label="Sable home"><svg class="lg" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 12h36a6 6 0 0 1 6 6v22a6 6 0 0 1-6 6H31l-10 9v-9h-7a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6z" fill="#B48CF0"/><rect x="28" y="19" width="8" height="15" rx="4" fill="#14101F"/><path d="M23 30v2a9 9 0 0 0 18 0v-2" fill="none" stroke="#14101F" stroke-width="2.5" stroke-linecap="round"/></svg>Sab<span>le</span></button>
   <div class="hr"><span id="online"></span><button class="link" id="hlogin">Log in</button><button class="link" id="hout" hidden>Log out</button></div>
 </header>
 <main>
@@ -178,7 +180,7 @@ dialog .col button{border-radius:14px;text-align:left}
       <div><b>Get matched</b><span>We connect you to someone who is free right now.</span></div>
       <div><b>Talk, type, keep in touch</b><span>Liked the chat? Add them as a friend and call again.</span></div>
     </div>
-    <p class="foot">By using BoloYaar you agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms, Privacy Policy and Community Rules</a>.</p>
+    <p class="foot">By using Sable you agree to the <a href="/terms.html" target="_blank" rel="noopener">Terms, Privacy Policy and Community Rules</a>.</p>
   </div>
 </section>
 

@@ -1,7 +1,7 @@
-# BoloYaar
+# Sable
 
 Lightweight "talk to strangers" voice + text chat. One Node.js file, one HTML page, no dependencies, no build step.
-"BoloYaar" is a placeholder name. Search and replace it in `public/` to rename.
+"Sable" is the working brand name. Check trademark and domain availability before launch.
 
 ## Run it
 

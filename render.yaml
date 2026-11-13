@@ -1,7 +1,7 @@
 # One-click deploy on Render: https://render.com/deploy?repo=https://github.com/dev-shubham-singh/VoiceChat
 services:
   - type: web
-    name: voicechat
+    name: sable
     runtime: node
     plan: free
     buildCommand: "true"

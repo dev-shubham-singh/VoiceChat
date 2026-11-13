@@ -1,5 +1,5 @@
 {
-  "name": "boloyaar",
+  "name": "sable",
   "version": "0.1.0",
   "description": "Lightweight stranger voice + text chat (WebRTC), zero dependencies",
   "main": "server.js",
